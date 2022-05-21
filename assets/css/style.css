@@ -209,7 +209,7 @@ ul {
 }
 
 /* ========== MEDIAQUERIES ========== */
-@media (min-width: 576px) {
+@media (min-width: 768px) {
   .circles img:first-child {
     position: absolute;
     width: 1000px;
@@ -234,6 +234,7 @@ body {
   background: var(--first-color);
   position: relative;
   height: 100vh;
+  overflow: hidden;
 }
 
 .wrapper {
