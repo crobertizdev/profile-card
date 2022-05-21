@@ -2,6 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   height: 100%;
   .card {
     background: #fff;
@@ -78,29 +79,28 @@
       }
     }
   }
-}
-
-.attribution {
-  padding: 2rem 0;
-  font-size: var(--normal-font-size);
-  color: var(--text-color);
+  .attribution {
+    padding: 2rem 0;
+    font-size: var(--normal-font-size);
+    color: var(--text-color);
+  }
 }
 
 .circles {
   img:first-child {
     position: absolute;
-    width: 400px;
-    height: 400px;
-    top: -200px;
-    left: -200px;
+    width: 40rem;
+    height: 40rem;
+    top: -20rem;
+    left: -20rem;
     z-index: -10;
   }
   img:last-child {
     position: absolute;
-    width: 400px;
-    height: 400px;
-    bottom: -200px;
-    right: -200px;
+    width: 40rem;
+    height: 40rem;
+    bottom: -20rem;
+    right: -20rem;
     z-index: -10;
   }
 }
@@ -110,18 +110,18 @@
   .circles {
     img:first-child {
       position: absolute;
-      width: 1000px;
-      height: 1000px;
-      top: -500px;
-      left: -500px;
+      width: 100rem;
+      height: 100rem;
+      top: -50rem;
+      left: -50rem;
       z-index: -10;
     }
     img:last-child {
       position: absolute;
-      width: 1000px;
-      height: 1000px;
-      bottom: -500px;
-      right: -500px;
+      width: 100rem;
+      height: 100rem;
+      bottom: -50rem;
+      right: -50rem;
       z-index: -10;
     }
   }
