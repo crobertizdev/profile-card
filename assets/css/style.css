@@ -187,15 +187,53 @@ ul {
 
 .attribution {
   padding: 2rem 0;
-  font-size: var(--p-font-size);
+  font-size: var(--normal-font-size);
   color: var(--text-color);
 }
 
+.circles img:first-child {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  top: -200px;
+  left: -200px;
+  z-index: -10;
+}
+.circles img:last-child {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  bottom: -200px;
+  right: -200px;
+  z-index: -10;
+}
+
+/* ========== MEDIAQUERIES ========== */
+@media (min-width: 576px) {
+  .circles img:first-child {
+    position: absolute;
+    width: 1000px;
+    height: 1000px;
+    top: -500px;
+    left: -500px;
+    z-index: -10;
+  }
+  .circles img:last-child {
+    position: absolute;
+    width: 1000px;
+    height: 1000px;
+    bottom: -500px;
+    right: -500px;
+    z-index: -10;
+  }
+}
 body {
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   color: var(--text-color);
   background: var(--first-color);
+  position: relative;
+  height: 100vh;
 }
 
 .wrapper {
