@@ -1,0 +1,27 @@
+:root {
+  /*========== COLORES ========== */
+  /* 
+    Dark Cian: hsl(185,75%,39%)
+    Very dark desatured blue: hsl(229, 23%, 23%)
+    Dark grayish blue: hsl(227,10%,46%)
+    Neutral dark gray: hsl(0,0%,59%)
+*/
+
+  /*========== PRIMARY ========== */
+  --color: hsl(185, 75%, 39%);
+  --color: hsl(227, 10%, 46%);
+  --color: hsl(0, 0%, 59%);
+  --hue: 185;
+  --sat: 75%;
+  --lig: 39%;
+
+  --first-color: hsl(var(--hue), var(--sat), var(--lig));
+  --text-color: hsl(229, 23%, 23%);
+  --text-color-light: hsl(0, 0%, 59%);
+
+  /*========== Fuentes ========== */
+  --body-font: 'Kumbh Sans', sans-serif;
+  --normal-font-size: 1.8rem;
+  --h1-font-size: 1.8rem;
+  --p-font-size: 1.4rem;
+}
