@@ -25,4 +25,4 @@ Este es una card que te genera un Pokémon aleatorio cada que refrescas la venta
 
 ## Créditos
 
-### Diseñado con ♥️ por Carlos Robertiz
+Diseñado con ♥️ por Carlos Robertiz
