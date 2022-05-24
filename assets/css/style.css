@@ -118,26 +118,26 @@ ul {
 }
 .content__card .card {
   background: #fff;
-  width: 35rem;
-  max-width: 35rem;
+  width: 32.6rem;
   border-radius: 1.4rem;
   position: relative;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .content__card .card .card__image {
-  width: 12rem;
-  height: 12rem;
+  width: 16rem;
+  height: 16rem;
   position: absolute;
-  top: 9rem;
-  left: calc(50% - 6rem);
+  top: 7rem;
+  left: calc(50% - 8rem);
   border-radius: 50%;
-  border: 5px solid #fff;
+  border: 3px solid #000;
+  background-color: #fff;
   transition: all 0.5s;
 }
 .content__card .card .card__image:hover {
   transform: scale(1.1);
 }
-.content__card .card .card__background {
+.content__card .card .card__header {
   border-top-left-radius: 1.4rem;
   border-top-right-radius: 1.4rem;
   height: 15rem;
@@ -150,16 +150,16 @@ ul {
   align-items: center;
   justify-content: center;
   gap: 1rem;
-  padding: 8rem 0 3rem 0;
+  padding: 10rem 0 3rem 0;
 }
 .content__card .card .card__body .card__content .card__name {
   font-size: var(--h1-font-size);
 }
-.content__card .card .card__body .card__content .card__name .card__age {
+.content__card .card .card__body .card__content .card__name .card__id {
   color: var(--text-color-light);
   font-weight: 400;
 }
-.content__card .card .card__body .card__content .card__job {
+.content__card .card .card__body .card__content .card__description {
   font-size: var(--p-font-size);
   font-weight: 400;
   color: var(--text-color-light);
@@ -187,7 +187,7 @@ ul {
 }
 .content__card .attribution {
   padding: 2rem 0;
-  font-size: var(--normal-font-size);
+  font-size: var(--p-font-size);
   color: var(--text-color);
 }
 
@@ -209,31 +209,19 @@ ul {
 }
 
 /* ========== MEDIAQUERIES ========== */
-@media (min-width: 768px) {
-  .circles img:first-child {
-    position: absolute;
-    width: 100rem;
-    height: 100rem;
-    top: -50rem;
-    left: -50rem;
-    z-index: -10;
+/* @media (min-width: 576px) {
+  .card__content {
   }
-  .circles img:last-child {
-    position: absolute;
-    width: 100rem;
-    height: 100rem;
-    bottom: -50rem;
-    right: -50rem;
-    z-index: -10;
+  html {
+    font-size: 65%;
   }
 }
+ */
 body {
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   color: var(--text-color);
   background: var(--first-color);
-  position: relative;
-  overflow: hidden;
 }
 
 .wrapper {
